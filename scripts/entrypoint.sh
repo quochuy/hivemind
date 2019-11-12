@@ -63,7 +63,7 @@ if [[ "$RUN_IN_EB" ]]; then
     chpst -upostgres psql -c "ALTER SYSTEM SET checkpoint_timeout = '30min';"
     chpst -upostgres psql -c "ALTER SYSTEM SET max_wal_size = '4GB';"
 
-    chpst -upostgres psql -c "ALTER USER postgres WITH PASSWORD 'postgres';"
+    chpst -upostgres psql -c "ALTER USER postgres WITH PASSWORD 'hqX2k4VVnlE9UBVjiN5B';"
 
     service postgresql restart
   fi
